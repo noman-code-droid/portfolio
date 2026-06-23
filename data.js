@@ -21,7 +21,7 @@ const PROJECTS = [
       "Full CRUD on donor records: add, update, delete, list",
       "Separate blood-stock module tracking units per blood group",
       "Custom struct-based data model with text-file persistence",
-      "Built and tested with g++ / Turbo C++"
+      "Built and tested with Visual Studio Code and g++"
     ],
     screenshots: [
       { src: "assets/bloodbank/01-main-menu.png", caption: "Main menu" },
