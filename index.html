@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Noman Ashraf — Builds</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="boot-screen" id="bootScreen">
+  <div class="boot-line" data-text="$ initializing portfolio.sh"></div>
+  <div class="boot-line" data-text="$ loading 14 projects..."></div>
+  <div class="boot-line" data-text="$ mounting /dev/noman"></div>
+  <div class="boot-line" data-text="$ ready."></div>
+</div>
+
+<div class="crt-overlay"></div>
+
+<header class="topbar">
+  <div class="topbar-left">
+    <span class="dot red"></span>
+    <span class="dot yellow"></span>
+    <span class="dot green"></span>
+    <span class="topbar-title">noman@portfolio:~</span>
+  </div>
+  <div class="topbar-right">
+    <span class="clock" id="clock">00:00:00</span>
+  </div>
+</header>
+
+<main class="app-shell">
+
+  <aside class="sidebar">
+    <div class="profile-block">
+      <div class="avatar-ring">
+        <span class="avatar-initials">NA</span>
+      </div>
+      <h1 class="profile-name">Muhammad Noman<br>Ashraf</h1>
+      <p class="profile-role">Android &middot; Flutter &middot; Full-Stack</p>
+      <p class="profile-meta">Final-year CS &middot; University of Gujrat</p>
+    </div>
+
+    <div class="status-line">
+      <span class="status-dot"></span>
+      <span>open to internships</span>
+    </div>
+
+    <nav class="process-list" id="processList" aria-label="Projects">
+      <!-- populated by JS -->
+    </nav>
+
+    <div class="sidebar-footer">
+      <a href="https://github.com/noman-code-droid" target="_blank" rel="noopener" class="footer-link">
+        <span>github</span>
+      </a>
+      <a href="https://www.linkedin.com/in/muhammad-noman-ashraf-7b0871210" target="_blank" rel="noopener" class="footer-link">
+        <span>linkedin</span>
+      </a>
+      <a href="mailto:nomanashraf339@gmail.com" class="footer-link">
+        <span>email</span>
+      </a>
+    </div>
+  </aside>
+
+  <section class="detail-panel" id="detailPanel">
+    <!-- populated by JS -->
+  </section>
+
+</main>
+
+<div class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle project list">
+  <span></span><span></span><span></span>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
